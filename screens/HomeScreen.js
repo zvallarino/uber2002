@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, SafeAreaView, Image } from 'react-native'
 import React from 'react'
 import tw from 'twrnc';
+import NavOptions from '../components/NavOptions';
 
 const HomeScreen = () => {
   return (
@@ -17,7 +18,7 @@ const HomeScreen = () => {
         }}
         />
       </View>
-      <Text style={tw`text-red-500 p-10`}>I am the homescreen</Text>
+      <NavOptions />
     </SafeAreaView>
   )
 }
